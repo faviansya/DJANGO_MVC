@@ -1,0 +1,134 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Alterra</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="{% static 'blog/css/styles.css' %}" />
+    <link rel="stylesheet" type="text/css" media="screen" href="{% static 'blog/css/bootstrap.min.css' %}" />
+
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="#">Alpha Tech Academy</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="{{halamanhome}}">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="{{halamanblog}}">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{halamanmentor}}">Mentor</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{halamanmentee}}">Mentee</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{halamanauthor}}">Author</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid m-auto" id='bgaqua'>
+        <div class="container text-white">
+            <div class="row">
+                <center>
+                    <div class="col-sm col-lg-7">
+                        <img src="{% static 'img/alpha-logo.png' %}" alt="">
+                        <h1 class="display-4">Alpha Tech Academy</h1>
+                        <p class="lead">Alphatech Academy is a Tech Tallent Incubator That gives
+                            everyone (even non IT background) a chance to be a professional Tech Tallent
+                            within 3 months. Contact Person: Email: academy@alphatech.id Mobile phone:
+                            087 9609 9530
+                        </p>
+                    </div>
+                </center>
+            </div>
+        </div>
+    </div>
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-sm">
+            </div>
+            <div class="col-sm">
+                <div class="row mt-5">
+                    <img src="{% static 'blog/img/kendala-sepulsa.jpg' %}" alt="" style="width: 700px;">
+                    <span>September 2019</span>
+                    <span style="padding-left:495px;">0 Comment</span>
+                    <h2>Punya Kendala? Segera Hubungi Customer Service Sepulsa!</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, sapiente maiores quasi
+                        accusantium a optio provident ipsum reiciendis voluptate delectus. Repellendus atque facere
+                        unde non natus suscipit ipsam veritatis autem.</p>
+                    <p><a href=""> Baca Selengkapnya...</a></p>
+                </div>
+            </div>
+            <div class="col-sm">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+            </div>
+            <div class="col-sm">
+                <div class="row mt-4">
+                    <img src="{% static 'blog/img/sms.png' %}" alt="" style="width: 700px;">
+                    <span>agustus, 14 2018</span>
+                    <span style="padding-left:485px;">0 Comment</span>
+                    <h2>OTP, Si Kode Rahasia Nan Berbahaya</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, sapiente maiores quasi
+                        accusantium a optio provident ipsum reiciendis voluptate delectus. Repellendus atque facere
+                        unde non natus suscipit ipsam veritatis autem.</p>
+                    <p><a href=""> Baca Selengkapnya...</a></p>
+                </div>
+            </div>
+            <div class="col-sm">
+            </div>
+        </div>
+
+    </div>
+    <footer class="text-white">
+        <center>
+            <footeratas>
+                <div class="container-fluid" id="footeratas">
+                    <div class="row justify-content-md-center">
+                        <div class="col-md-auto" id="product">
+                            <h4>Our Product:</h4>
+                        </div>
+                        <div class="col-md-auto">
+                            <img src="{% static 'img/logo-grey-alphapay.png' %}" alt="">
+                        </div>
+                        <div class="col-md-auto">
+                            <img src="{% static 'img/logo-grey-sepulsa.png' %}" alt="">
+                        </div>
+                        <div class="col-md-auto">
+                            <img src="{% static 'img/logo-grey-alphabill.png' %}" alt="">
+                        </div>
+                    </div>
+                </div>
+            </footeratas>
+            <footerbawah>
+                <div class="container-fluid bg-black" id="footerbawah">
+                    <span><strong>Contact Person:</strong> Mobile Phone: 087 9609 9530. <a href="">Email:
+                            academy@alphatech.id</a></span>
+                </div>
+            </footerbawah>
+        </center>
+    </footer>
+    <script src="{% static 'blog/js/bootstrap.min.js' %}"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,187 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Alterra</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="{% static 'author/css/bootstrap.min.css' %}" />
+    <link rel="stylesheet" type="text/css" media="screen" href="{% static 'author/css/stylesauth.css' %}" />
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="#">Alpha Tech Academy</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="{{halamanhome}}">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{halamanblog}}">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{halamanmentor}}">Mentor</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{halamanmentee}}">Mentee</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="{{halamanauthor}}">Author</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid m-auto" id='bgaqua'>
+        <div class="container text-white">
+            <div class="row">
+                <center>
+                    <div class="col-sm col-lg-7">
+                        <img src="{% static 'img/alpha-logo.png' %}" alt="">
+                        <h1 class="display-4">Alpha Tech Academy</h1>
+                        <p class="lead">Alphatech Academy is a Tech Tallent Incubator That gives
+                            everyone (even non IT background) a chance to be a professional Tech Tallent
+                            within 3 months. Contact Person: Email: academy@alphatech.id Mobile phone:
+                            087 9609 9530
+                        </p>
+                    </div>
+                </center>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="paddinggila">
+        <div class="row col-lg-12 ml-5">
+            <div class="mt-5">
+                <img src="{% static 'author/img/profile-pic2.jpg' %}" alt="">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm mt-3 col-lg-7">
+                        <h3>Faviansyah Arianda P.</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm mt-3 col-lg-6">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas, dolores! Nobis quae sit,
+                            magnam perspiciatis, incidunt laborum quos beatae, laboriosam itaque dignissimos numquam
+                            unde? Tempora perspiciatis sit in assumenda amet.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm col-lg-2 col-sm 12">
+                        <span>Alamat</span>
+                    </div>
+                    <div class="col-sm col-lg-3 col-sm 12">
+                        <span>: Jl. Sigura-Gura Selatan</span>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-sm col-lg-2 col-sm 12">
+                        <span>Telephone</span>
+                    </div>
+                    <div class="col-sm col-lg-3 col-sm 12">
+                        <span>: 081-666-777-888-999</span>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-sm col-lg-2 col-sm 12">
+                        <span>Education</span>
+                    </div>
+                    <div class="col-sm col-lg-3 col-sm 12">
+                        <span>: Brawijaya University</span>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-sm col-lg-2 col-sm 12">
+                        <span>Profession</span>
+                    </div>
+                    <div class="col-sm col-lg-3 col-sm 12">
+                        <span>: Programmer</span>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-sm col-lg-2 col-sm 12">
+                        <span>Nationality</span>
+                    </div>
+                    <div class="col-sm col-lg-3 col-sm 12">
+                        <span>: Indonesia</span>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-sm col-lg-2 col-sm 12">
+                        <span>Company</span>
+                    </div>
+                    <div class="col-sm col-lg-3 col-sm 12">
+                        <span>: Alterra</span>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-sm col-lg-2 col-sm 12">
+                        <span>Email</span>
+                    </div>
+                    <div class="col-sm col-lg-3 col-sm 12">
+                        <span>: faviansya@gmail.com</span>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-sm col-lg-2 col-sm 12">
+                        <span>Address</span>
+                    </div>
+                    <div class="col-sm col-lg-3 col-sm 12">
+                        <span>: Jl. Puncak Tidar 2/199</span>
+                    </div>
+                </div>
+            </div>
+            <div class="container mb-5 mt-3">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.4244414907516!2d112.59406194965665!3d-7.955013994242108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwNTcnMTguMSJTIDExMsKwMzUnNDYuNSJF!5e0!3m2!1sen!2sid!4v1549974635082"
+                    width="700" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> </div>
+
+        </div>
+    </div>
+    <footer class="text-white">
+        <center>
+            <footeratas>
+                <div class="container-fluid" id="footeratas">
+                    <div class="row justify-content-md-center">
+                        <div class="col-md-auto" id="product">
+                            <h4>Our Product:</h4>
+                        </div>
+                        <div class="col-md-auto">
+                            <img src="{% static 'img/logo-grey-alphapay.png' %}" alt="">
+                        </div>
+                        <div class="col-md-auto">
+                            <img src="{% static 'img/logo-grey-sepulsa.png' %}" alt="">
+                        </div>
+                        <div class="col-md-auto">
+                            <img src="{% static 'img/logo-grey-alphabill.png' %}" alt="">
+                        </div>
+                    </div>
+                </div>
+            </footeratas>
+            <footerbawah>
+                <div class="container-fluid bg-black" id="footerbawah">
+                    <span><strong>Contact Person:</strong> Mobile Phone: 087 9609 9530. <a href="">Email:
+                            academy@alphatech.id</a></span>
+                </div>
+            </footerbawah>
+        </center>
+    </footer>
+    <script src="{% static 'author/js/bootstrap.min.js' %}"></script>
+
+
+</body>
+
+</html>

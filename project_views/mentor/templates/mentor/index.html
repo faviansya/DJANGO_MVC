@@ -1,0 +1,129 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Alterra</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="{% static 'mentor/css/styles.css' %}" />
+    <link rel="stylesheet" type="text/css" media="screen" href="{% static 'mentor/css/bootstrap.min.css' %}" />
+
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="#">Alpha Tech Academy</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="{{halamanhome}}">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{halamanblog}}">Blog</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="{{halamanmentor}}">Mentor</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{halamanmentee}}">Mentee</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{halamanauthor}}">Author</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid m-auto" id='bgaqua'>
+            <div class="container text-white">
+                <div class="row">
+                    <center>
+                        <div class="col-sm col-lg-7">
+                            <img src="{% static 'img/alpha-logo.png' %}" alt="">
+                            <h1 class="display-4">Alpha Tech Academy</h1>
+                            <p class="lead">Alphatech Academy is a Tech Tallent Incubator That gives
+                                everyone (even non IT background) a chance to be a professional Tech Tallent
+                                within 3 months. Contact Person: Email: academy@alphatech.id Mobile phone:
+                                087 9609 9530
+                            </p>
+                        </div>
+                    </center>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+        <center> <h3 class="mt-5">Our Mentor</h3></center>
+        <div class="row justify-content-md-center mt-5 col-sm-12">
+            <div class="col col-lg-3 col-md-6">
+                <img src="{% static 'mentor/img/people-andreas.png' %}" alt="" style="height:150px;">
+            </div>
+            <div class="col col-lg-5 col-sm-12 ml-5 col-md-6">
+                <h4>Andreas Nugroho</h4>
+                <p>Software Ninja (5 Years Experience)</p>
+                <span>"Great Place To Learn Programming, Come Join Us!"</span>
+            </div>
+        </div>
+        <div class="row justify-content-md-center mt-5 col-sm-12">
+            <div class="col col-lg-3 col-md-6">
+                <img src="{% static 'mentor/img/people-ramdhan.png' %}" alt="" style="height:150px;">
+            </div>
+            <div class="col col-lg-5 col-sm-12 ml-5 col-md-6">
+                <h4>Ramdhan Hidayat</h4>
+                <p>Master of Chaos (10 years Experience)</p>
+                <span>"We make This Program With Passion, Hardwork and Heart, Lets get Rock with us!"</span>
+            </div>
+        </div>
+        <div class="row justify-content-md-center mt-5 mb-5 col-sm-12">
+            <div class="col col-lg-3 col-md-6 ">
+                <img src="{% static 'mentor/img/people-trimo.png' %}" alt="" style="height:150px;">
+            </div>
+            <div class="col col-lg-5 col-sm-12 ml-5 col-md-6">
+                    <h4>Trimo Leksono</h4>
+                    <p>Magician (8 Years Experience)</p>
+                    <span>"The best place for who want to be a great IT talent!"</span>
+                </div>
+        </div>
+    </div>
+
+    <footer class="text-white">
+        <center>
+            <footeratas>
+                <div class="container-fluid" id="footeratas">
+                    <div class="row justify-content-md-center">
+                        <div class="col-md-auto" id="product">
+                            <h4>Our Product:</h4>
+                        </div>
+                        <div class="col-md-auto">
+                            <img src="{% static 'img/logo-grey-alphapay.png' %}" alt="">
+                        </div>
+                        <div class="col-md-auto">
+                            <img src="{% static 'img/logo-grey-sepulsa.png' %}" alt="">
+                        </div>
+                        <div class="col-md-auto">
+                            <img src="{% static 'img/logo-grey-alphabill.png' %}" alt="">
+                        </div>
+                    </div>
+                </div>
+            </footeratas>
+            <footerbawah>
+                <div class="container-fluid bg-black" id="footerbawah">
+                    <span><strong>Contact Person:</strong> Mobile Phone: 087 9609 9530. <a href="">Email:
+                            academy@alphatech.id</a></span>
+                </div>
+            </footerbawah>
+        </center>
+    </footer>
+    <script src="{% static 'mentor/js/bootstrap.min.js' %}"></script>
+
+
+</body>
+
+</html>
