@@ -1,6 +1,6 @@
 # DJANGO_MVC
 Tugas Alterra
-Python Anywhere : http://faviansya.pythonanywhere.com/
+Python Anywhere : http://faviansyah.pythonanywhere.com/
 
 ADMIN
 id: admin
